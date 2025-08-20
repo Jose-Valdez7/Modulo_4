@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "calculadora",
+            "cwd": "calculadora",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "calculadora (profile mode)",
+            "cwd": "calculadora",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "calculadora (release mode)",
+            "cwd": "calculadora",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "ejemplo_scaffold",
+            "cwd": "ejemplo_scaffold",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "ejemplo_scaffold (profile mode)",
+            "cwd": "ejemplo_scaffold",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "ejemplo_scaffold (release mode)",
+            "cwd": "ejemplo_scaffold",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "ejemplo_stateful",
+            "cwd": "ejemplo_stateful",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "ejemplo_stateful (profile mode)",
+            "cwd": "ejemplo_stateful",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "ejemplo_stateful (release mode)",
+            "cwd": "ejemplo_stateful",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hola_mundo",
+            "cwd": "hola_mundo",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hola_mundo (profile mode)",
+            "cwd": "hola_mundo",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hola_mundo (release mode)",
+            "cwd": "hola_mundo",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "lista_clientes",
+            "cwd": "lista_clientes",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "lista_clientes (profile mode)",
+            "cwd": "lista_clientes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "lista_clientes (release mode)",
+            "cwd": "lista_clientes",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "navigation",
+            "cwd": "navigation",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "navigation (profile mode)",
+            "cwd": "navigation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "navigation (release mode)",
+            "cwd": "navigation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "test_dispositivo",
+            "cwd": "test_dispositivo",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "test_dispositivo (profile mode)",
+            "cwd": "test_dispositivo",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "test_dispositivo (release mode)",
+            "cwd": "test_dispositivo",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "widgets",
+            "cwd": "widgets",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "widgets (profile mode)",
+            "cwd": "widgets",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "widgets (release mode)",
+            "cwd": "widgets",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

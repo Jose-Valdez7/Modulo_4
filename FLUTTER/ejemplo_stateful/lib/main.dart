@@ -1,4 +1,3 @@
-import 'package:ejemplo_stateful/pages/counter_page.dart';
 import 'package:ejemplo_stateful/pages/welcome_page.dart';
 import 'package:flutter/material.dart';
 
