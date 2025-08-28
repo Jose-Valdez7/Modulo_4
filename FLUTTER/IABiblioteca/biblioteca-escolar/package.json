@@ -1,0 +1,78 @@
+{
+  "name": "biblioteca-escolar",
+  "version": "1.0.0",
+  "description": "Sistema de Biblioteca Escolar - Frontend y Backend integrados",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install-all": "npm install && cd backend && npm install",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend:dev": "cd backend && npm run dev",
+    "frontend:dev": "react-scripts start",
+    "backend:seed": "cd backend && npm run db:seed",
+    "backend:migrate": "cd backend && npm run db:migrate",
+    "backend:generate": "cd backend && npm run db:generate"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.68",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "concurrently": "^8.2.2",
+    "framer-motion": "^12.23.12",
+    "jspdf": "^3.0.2",
+    "jspdf-autotable": "^5.0.2",
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.48.2",
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.3",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.3.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17"
+  },
+  "keywords": [
+    "biblioteca",
+    "escolar",
+    "react",
+    "nodejs",
+    "express",
+    "prisma",
+    "postgresql"
+  ],
+  "author": "Equipo de Desarrollo",
+  "license": "MIT"
+}

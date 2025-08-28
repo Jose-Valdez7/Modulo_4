@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-store"></i>
+                    <span>MiCatálogo</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#productos" class="nav-link">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Descubre Nuestros Productos</h1>
+            <p>La mejor calidad al mejor precio</p>
+            <a href="#productos" class="cta-button">Ver Productos</a>
+        </div>
+    </section>
+
+    <!-- Sección de Productos -->
+    <section class="products" id="productos">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="products-grid">
+                <!-- Producto 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/4CAF50/FFFFFF?text=Producto+1" alt="Producto 1">
+                        <div class="product-overlay">
+                            <button class="btn-details">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Producto Premium</h3>
+                        <p class="product-description">Descripción del producto con características destacadas y beneficios principales.</p>
+                        <div class="product-price">
+                            <span class="price">$99.99</span>
+                            <span class="old-price">$129.99</span>
+                        </div>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Agregar al Carrito
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/2196F3/FFFFFF?text=Producto+2" alt="Producto 2">
+                        <div class="product-overlay">
+                            <button class="btn-details">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Producto Estándar</h3>
+                        <p class="product-description">Producto de calidad estándar con excelente relación calidad-precio.</p>
+                        <div class="product-price">
+                            <span class="price">$49.99</span>
+                        </div>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Agregar al Carrito
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/FF9800/FFFFFF?text=Producto+3" alt="Producto 3">
+                        <div class="product-overlay">
+                            <button class="btn-details">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Producto Básico</h3>
+                        <p class="product-description">Producto básico ideal para comenzar, con funcionalidades esenciales.</p>
+                        <div class="product-price">
+                            <span class="price">$29.99</span>
+                        </div>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Agregar al Carrito
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/9C27B0/FFFFFF?text=Producto+4" alt="Producto 4">
+                        <div class="product-overlay">
+                            <button class="btn-details">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Producto Deluxe</h3>
+                        <p class="product-description">Producto premium con características avanzadas y diseño exclusivo.</p>
+                        <div class="product-price">
+                            <span class="price">$199.99</span>
+                            <span class="old-price">$249.99</span>
+                        </div>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Agregar al Carrito
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Producto 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/F44336/FFFFFF?text=Producto+5" alt="Producto 5">
+                        <div class="product-overlay">
+                            <button class="btn-details">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Producto Especial</h3>
+                        <p class="product-description">Producto especial con características únicas y diseño innovador.</p>
+                        <div class="product-price">
+                            <span class="price">$79.99</span>
+                        </div>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Agregar al Carrito
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Producto 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x200/607D8B/FFFFFF?text=Producto+6" alt="Producto 6">
+                        <div class="product-overlay">
+                            <button class="btn-details">Ver Detalles</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Producto Profesional</h3>
+                        <p class="product-description">Producto profesional diseñado para usuarios exigentes y expertos.</p>
+                        <div class="product-price">
+                            <span class="price">$149.99</span>
+                            <span class="old-price">$179.99</span>
+                        </div>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Agregar al Carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MiCatálogo</h3>
+                    <p>Tu tienda de confianza para encontrar los mejores productos al mejor precio.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                        <p><i class="fas fa-envelope"></i> info@micatalogo.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Calle Principal 123, Ciudad</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Suscríbete para recibir ofertas especiales</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu email" required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MiCatálogo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

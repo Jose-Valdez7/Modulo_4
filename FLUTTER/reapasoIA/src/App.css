@@ -1,0 +1,63 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 2px 8px rgba(79,140,255,0.12));
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Modern header, centrado y profesional */
+.App-header {
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary, #4f8cff);
+  letter-spacing: 1px;
+}
+
+/* Modern footer */
+.App-footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Bootstrap button override for modern look */
+.btn-primary {
+  background: var(--primary, #4f8cff);
+  border: none;
+  border-radius: var(--radius, 16px);
+  box-shadow: var(--shadow, 0 4px 16px rgba(0,0,0,0.08));
+  transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+.btn-primary:hover {
+  background: var(--secondary, #ff6f61);
+  box-shadow: 0 8px 32px rgba(255,111,97,0.15);
+  transform: scale(1.05);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
